@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18142972206101710052CD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18142971206101710052CD12 /* AppDelegate.swift */; };
+		18142974206101710052CD12 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 18142973206101710052CD12 /* art.scnassets */; };
+		18142976206101710052CD12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18142975206101710052CD12 /* ViewController.swift */; };
+		18142979206101710052CD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18142977206101710052CD12 /* Main.storyboard */; };
+		1814297B206101710052CD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1814297A206101710052CD12 /* Assets.xcassets */; };
+		1814297E206101710052CD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1814297C206101710052CD12 /* LaunchScreen.storyboard */; };
+		181760E820627ACF007CBFD2 /* OutdoorSofa1.png in Resources */ = {isa = PBXBuildFile; fileRef = 181760E720627ACF007CBFD2 /* OutdoorSofa1.png */; };
+		182CCE4020AD894200AC49B9 /* AppNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CCE3F20AD894200AC49B9 /* AppNavController.swift */; };
+		182CCE4720AD89D900AC49B9 /* HalfModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CCE4220AD89D900AC49B9 /* HalfModalPresentationController.swift */; };
+		182CCE4820AD89D900AC49B9 /* HalfModalInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CCE4420AD89D900AC49B9 /* HalfModalInteractiveTransition.swift */; };
+		182CCE4920AD89D900AC49B9 /* HalfModalTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CCE4520AD89D900AC49B9 /* HalfModalTransitionAnimator.swift */; };
+		182CCE4A20AD89D900AC49B9 /* HalfModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CCE4620AD89D900AC49B9 /* HalfModalTransitioningDelegate.swift */; };
+		182CCE4C20AD986B00AC49B9 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CCE4B20AD986B00AC49B9 /* Furniture.swift */; };
+		18BF6BC520662AA000807B91 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF6BC420662AA000807B91 /* ModalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1814296E206101710052CD12 /* FurnitureAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18142971206101710052CD12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18142973206101710052CD12 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		18142975206101710052CD12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18142978206101710052CD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1814297A206101710052CD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1814297D206101710052CD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1814297F206101710052CD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181760E720627ACF007CBFD2 /* OutdoorSofa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutdoorSofa1.png; sourceTree = "<group>"; };
+		182CCE3F20AD894200AC49B9 /* AppNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavController.swift; sourceTree = "<group>"; };
+		182CCE4220AD89D900AC49B9 /* HalfModalPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalPresentationController.swift; sourceTree = "<group>"; };
+		182CCE4420AD89D900AC49B9 /* HalfModalInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalInteractiveTransition.swift; sourceTree = "<group>"; };
+		182CCE4520AD89D900AC49B9 /* HalfModalTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitionAnimator.swift; sourceTree = "<group>"; };
+		182CCE4620AD89D900AC49B9 /* HalfModalTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		182CCE4B20AD986B00AC49B9 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
+		18BF6BC420662AA000807B91 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1814296B206101710052CD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18142965206101710052CD12 = {
+			isa = PBXGroup;
+			children = (
+				18142970206101710052CD12 /* FurnitureAR */,
+				1814296F206101710052CD12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1814296F206101710052CD12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1814296E206101710052CD12 /* FurnitureAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18142970206101710052CD12 /* FurnitureAR */ = {
+			isa = PBXGroup;
+			children = (
+				182CCE4120AD89D900AC49B9 /* Presentation */,
+				182CCE4320AD89D900AC49B9 /* Transitioning */,
+				18142971206101710052CD12 /* AppDelegate.swift */,
+				18142973206101710052CD12 /* art.scnassets */,
+				18BF6BC420662AA000807B91 /* ModalViewController.swift */,
+				18142975206101710052CD12 /* ViewController.swift */,
+				18142977206101710052CD12 /* Main.storyboard */,
+				181760E720627ACF007CBFD2 /* OutdoorSofa1.png */,
+				1814297A206101710052CD12 /* Assets.xcassets */,
+				1814297C206101710052CD12 /* LaunchScreen.storyboard */,
+				1814297F206101710052CD12 /* Info.plist */,
+				182CCE3F20AD894200AC49B9 /* AppNavController.swift */,
+				182CCE4B20AD986B00AC49B9 /* Furniture.swift */,
+			);
+			path = FurnitureAR;
+			sourceTree = "<group>";
+		};
+		182CCE4120AD89D900AC49B9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				182CCE4220AD89D900AC49B9 /* HalfModalPresentationController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		182CCE4320AD89D900AC49B9 /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				182CCE4420AD89D900AC49B9 /* HalfModalInteractiveTransition.swift */,
+				182CCE4520AD89D900AC49B9 /* HalfModalTransitionAnimator.swift */,
+				182CCE4620AD89D900AC49B9 /* HalfModalTransitioningDelegate.swift */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1814296D206101710052CD12 /* FurnitureAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18142982206101710052CD12 /* Build configuration list for PBXNativeTarget "FurnitureAR" */;
+			buildPhases = (
+				1814296A206101710052CD12 /* Sources */,
+				1814296B206101710052CD12 /* Frameworks */,
+				1814296C206101710052CD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FurnitureAR;
+			productName = FurnitureAR;
+			productReference = 1814296E206101710052CD12 /* FurnitureAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18142966206101710052CD12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = hustle;
+				TargetAttributes = {
+					1814296D206101710052CD12 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18142969206101710052CD12 /* Build configuration list for PBXProject "FurnitureAR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18142965206101710052CD12;
+			productRefGroup = 1814296F206101710052CD12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1814296D206101710052CD12 /* FurnitureAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1814296C206101710052CD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18142974206101710052CD12 /* art.scnassets in Resources */,
+				1814297E206101710052CD12 /* LaunchScreen.storyboard in Resources */,
+				1814297B206101710052CD12 /* Assets.xcassets in Resources */,
+				18142979206101710052CD12 /* Main.storyboard in Resources */,
+				181760E820627ACF007CBFD2 /* OutdoorSofa1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1814296A206101710052CD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18142976206101710052CD12 /* ViewController.swift in Sources */,
+				18142972206101710052CD12 /* AppDelegate.swift in Sources */,
+				182CCE4820AD89D900AC49B9 /* HalfModalInteractiveTransition.swift in Sources */,
+				182CCE4A20AD89D900AC49B9 /* HalfModalTransitioningDelegate.swift in Sources */,
+				182CCE4C20AD986B00AC49B9 /* Furniture.swift in Sources */,
+				182CCE4720AD89D900AC49B9 /* HalfModalPresentationController.swift in Sources */,
+				18BF6BC520662AA000807B91 /* ModalViewController.swift in Sources */,
+				182CCE4020AD894200AC49B9 /* AppNavController.swift in Sources */,
+				182CCE4920AD89D900AC49B9 /* HalfModalTransitionAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18142977206101710052CD12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18142978206101710052CD12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1814297C206101710052CD12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1814297D206101710052CD12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18142980206101710052CD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18142981206101710052CD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18142983206101710052CD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS6V34X3NK;
+				INFOPLIST_FILE = FurnitureAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hustle.FurnitureAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18142984206101710052CD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WS6V34X3NK;
+				INFOPLIST_FILE = FurnitureAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hustle.FurnitureAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18142969206101710052CD12 /* Build configuration list for PBXProject "FurnitureAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18142980206101710052CD12 /* Debug */,
+				18142981206101710052CD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18142982206101710052CD12 /* Build configuration list for PBXNativeTarget "FurnitureAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18142983206101710052CD12 /* Debug */,
+				18142984206101710052CD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18142966206101710052CD12 /* Project object */;
+}
